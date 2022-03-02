@@ -1,0 +1,17 @@
+{
+    "name": "Gerald Risk",
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+        "docker-compose-extend.yml"
+    ],
+    "runServices": [
+        "app"
+    ],
+    "workspaceFolder": "/srv",
+    "service": "app",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "ms-python.python",
+        "eamodio.gitlens"
+    ]
+}
